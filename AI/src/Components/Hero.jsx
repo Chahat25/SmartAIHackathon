@@ -1,71 +1,62 @@
-import React from 'react'
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import image1 from "../assets/1.jpg";
+import image2 from "../assets/2.jpg";
+import image3 from "../assets/3.jpg";
+import './Hero.css';
 
 function Hero() {
+  const settings = {
+    dots: false,
+    arrows: true,
+    infinite: true,
+    speed: 1200,
+    autoplaySpeed: 2000,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    draggable: false,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+  };
+
   return (
     <div>
-            <section class='c-slider'>
-  <div class='c-slider-init'>
-    <!-- Slide 1 -->
-    <div class='c-slide' style='background-image:url("https://images.unsplash.com/photo-1504461407194-07c608d0989b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=100")'>
-      <div class='c-slide-content'>
-        <div class='c-wrap c-wrap--line'>
-          <h2 class='c-slide__title'>
-            Underwater
-            <span class='c-slide__title--large'>Monsters</span>
-          </h2>
-        </div>
-        <div class='c-wrap c-wrap--small'>
-          <div class='c-slide__info'>
-            <h3 class='c-slide__subtitle'>Saltwater Crocodile</h3>
-            <p class='c-slide__body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <section className="c-slider">
+        <Slider {...settings}>
+          <div className="c-slide" style={{ backgroundImage: `url(${image1})` }}>
+            <div className="c-slide-content">
+              <div className="c-wrap c-wrap--line">
+                <h2 className="c-slide__title">Underwater
+                  <span className="c-slide__title--large">Monsters</span>
+                </h2>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- Slide 2 -->
-    <div class='c-slide' style='background-image:url("https://images.unsplash.com/photo-1544745494-3d8dd3fa1564?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=100")'>
-      <div class='c-slide-content'>
-        <div class='c-wrap c-wrap--line'>
-          <h2 class='c-slide__title'>
-            The
-            <span class='c-slide__title--medium'>Gates of Hell</span>
-          </h2>
-        </div>
-        <div class='c-wrap c-wrap--small'>
-          <div class='c-slide__info'>
-            <h3 class='c-slide__subtitle'>Special inside volcanoes</h3>
-            <p class='c-slide__body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div className="c-slide" style={{ backgroundImage: `url(${image2})` }}>
+            <div className="c-slide-content">
+              <div className="c-wrap c-wrap--line">
+                <h2 className="c-slide__title">The
+                  <span className="c-slide__title--medium">Gates of Hell</span>
+                </h2>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- Slide 3 -->
-    <div class='c-slide' style='background-image:url("https://images.unsplash.com/photo-1528214096798-37891d32174c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=100")'>
-      <div class='c-slide-content'>
-        <div class='c-wrap c-wrap--line'>
-          <h2 class='c-slide__title'>
-            Exploring
-            <span class='c-slide__title--large'>Deep Caves</span>
-          </h2>
-        </div>
-        <div class='c-wrap c-wrap--small'>
-          <div class='c-slide__info'>
-            <h3 class='c-slide__subtitle'>Real Time Capsules</h3>
-            <p class='c-slide__body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div className="c-slide" style={{ backgroundImage: `url(${image3})` }}>
+            <div className="c-slide-content">
+              <div className="c-wrap c-wrap--line">
+                <h2 className="c-slide__title">Exploring
+                  <span className="c-slide__title--large">Deep Caves</span>
+                </h2>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        </Slider>
+      </section>
     </div>
-  </div>
-</section>
-
-    </div>
-  )
+  );
 }
 
-export default Hero
-
-
-
-
-
+export default Hero;
