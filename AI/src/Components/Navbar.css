@@ -1,0 +1,79 @@
+/* General Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: "Playfair Display", serif; /* Add royal serif font */
+    color: #f5f5f5;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Sections */
+  .navbar-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Search Bar */
+  .searchbar img {
+    width: 24px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  /* Logo */
+  .logo .brand-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  /* Account and Cart */
+  .account-cart {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .account, .cart {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .account:hover, .cart:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon {
+    width: 28px;
+    height: 28px;
+  }
+  
+  h3 {
+    font-size: 1rem;
+    color: #f5f5f5;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .account-cart {
+      gap: 1rem;
+    }
+  
+    .brand-name {
+      font-size: 2rem;
+    }
+  }
+  
