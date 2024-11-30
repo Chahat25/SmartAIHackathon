@@ -11,8 +11,8 @@ function Home() {
       <Navbar />
       <Header />
 <Hero />
-<Products />
-      
+<Products category="Men" />
+
     </div>
   )
 }

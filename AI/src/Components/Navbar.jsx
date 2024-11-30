@@ -10,12 +10,12 @@ function Navbar() {
     <header className="navbar">
       {/* Search Bar */}
       <div className="navbar-section searchbar">
+        <img src={SearchIcon} alt="Search" className="icon" />
         <input
           type="text"
           placeholder="Search..."
           className="search-input"
         />
-        <img src={SearchIcon} alt="Search" className="icon" />
       </div>
 
       {/* Logo */}

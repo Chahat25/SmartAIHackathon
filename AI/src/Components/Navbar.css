@@ -4,14 +4,21 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  font-family: "Playfair Display", serif; /* Royal serif font */
-  color: #f5f5f5;
+  font-family: "Playfair Display", serif; /* Elegant and royal font */
+  color: #000000; /* Black text color */
   position: relative;
   top: 0;
   width: 100%;
   z-index: 1000;
-  background: transparent;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.8); /* Subtle translucent background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Smooth background blur */
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.navbar:hover {
+  background: rgba(255, 255, 255, 0.95); /* Slightly opaque on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .navbar-section {
@@ -23,15 +30,20 @@
 .searchbar {
   display: flex;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 25px;
   padding: 5px 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.searchbar:hover {
+  transform: scale(1.02);
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
 .search-input {
   background: transparent;
   border: none;
-  color: #f5f5f5;
+  color: #000000;
   font-size: 1rem;
   outline: none;
   margin-right: 10px;
@@ -50,12 +62,23 @@
 .logo .brand-name {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #f5f5f5;
+  color: #000000; /* Black text color */
   letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
   flex-grow: 1;
-  font-family: "Playfair Display", serif;
+  animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Account and Cart */
@@ -75,7 +98,7 @@
 
 .account:hover, .cart:hover {
   transform: scale(1.1);
-  color: #ffd700; /* Royal gold on hover */
+  color: #6a5acd; /* Royal purple on hover */
 }
 
 .icon {
@@ -85,7 +108,7 @@
 
 h3.acc-h3 {
   font-size: 1.1rem;
-  color: #000000;
+  color: #000000; /* Black text */
   font-weight: 600;
 }
 
