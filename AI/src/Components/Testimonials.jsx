@@ -50,10 +50,13 @@ export function AnimatedTestimonialsDemo() {
             <p>{testimonial.quote}</p>
           </div>
           <div className="testimonial-author">
-            <img
+            <motion.img
               src={testimonial.src}
               alt={testimonial.name}
               className="testimonial-image"
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.4, ease: "easeOut" }}
             />
             <div className="author-details">
               <p className="author-name">{testimonial.name}</p>

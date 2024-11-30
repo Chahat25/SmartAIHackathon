@@ -57,7 +57,7 @@ const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
                   rotateY: randomRotateY(),
                 }}
                 transition={{
-                  duration: 0.4,
+                  duration: 0.6,
                   ease: "easeInOut",
                 }}
                 className="testimonial-image"
@@ -81,13 +81,37 @@ const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{
-              duration: 0.2,
+              duration: 0.4,
               ease: "easeInOut",
             }}
           >
-            <h3 className="testimonial-name">{testimonials[active].name}</h3>
-            <p className="testimonial-designation">{testimonials[active].designation}</p>
-            <motion.p className="testimonial-quote">
+            <motion.h3
+              className="testimonial-name"
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              {testimonials[active].name}
+            </motion.h3>
+            <motion.p
+              className="testimonial-designation"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              {testimonials[active].designation}
+            </motion.p>
+            <motion.p
+              className="testimonial-quote"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{
+                duration: 0.6,
+                ease: "easeInOut",
+                delay: 0.4,
+              }}
+            >
               {testimonials[active].quote.split(" ").map((word, index) => (
                 <motion.span
                   key={index}
@@ -102,7 +126,7 @@ const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
                     y: 0,
                   }}
                   transition={{
-                    duration: 0.2,
+                    duration: 0.3,
                     ease: "easeInOut",
                     delay: 0.02 * index,
                   }}

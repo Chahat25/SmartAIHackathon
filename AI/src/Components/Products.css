@@ -20,19 +20,22 @@
 }
 
 .trusted-companies .card {
-  background-color: transparent;
+  background-color: #fff;
   border-radius: 16px;
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
   border: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .trusted-companies .card:hover {
   transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-.trusted-companies .arrimg{
-width: 40px;
+.trusted-companies .arrimg {
+  width: 40px;
 }
 
 .trusted-companies .card-inner {
@@ -81,24 +84,27 @@ width: 40px;
 
 .trusted-companies .content {
   padding: 1rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Left align all content */
 }
 
 .trusted-companies .content h3 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  color: #333; /* Dark text for the title */
 }
 
 .trusted-companies .content p {
   font-size: 0.875rem;
-  color: #282828;
+  color: #555; /* Slightly lighter color for description */
   margin-bottom: 1rem;
 }
 
 .trusted-companies .content ul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   gap: 0.5rem;
   padding: 0;
@@ -118,6 +124,9 @@ width: 40px;
 
 .price-details {
   margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .price {
@@ -127,21 +136,76 @@ width: 40px;
 }
 
 .discount {
-  margin-left: 0.5rem;
   font-size: 0.9rem;
   color: #888; /* Subtle discount text color */
 }
 
 .actions {
   margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .add-to-cart {
   background-color: #70b3b1; /* Cart button color */
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.25rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.add-to-cart:hover {
+  background-color: #5f9f9c;
+}
+
+.like-button {
+  font-size: 1.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #d05fa2;
+  transition: color 0.3s;
+}
+
+.like-button:hover {
+  color: #ff4081; /* Heart icon hover effect */
+}
+
+.like-button.liked {
+  color: #ff4081; /* Liked heart color */
+}
+
+.like-button {
+  font-size: 1.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #d05fa2;
+  transition: color 0.3s;
+}
+
+.like-button.liked {
+  color: #ff4081; /* Heart icon hover effect */
+}
+
+.like-button:hover {
+  transform: scale(1.1); /* Slight zoom on hover for better interaction */
+}
+
+.like-button:focus {
+  outline: none;
+}
+
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start; /* Align to the left */
 }

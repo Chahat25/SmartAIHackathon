@@ -3,7 +3,7 @@ import Header from "../Components/Header"
 import Navbar from "../Components/Navbar"
 import Hero from "../Components/Hero"
 import Products from "../Components/Products"
-// import Products from "../Components/Products"
+import { AnimatedTestimonialsDemo } from "../Components/Testimonials"
 
 function Home() {
   return (
@@ -12,7 +12,7 @@ function Home() {
       <Header />
 <Hero />
 <Products category="Men" />
-
+<AnimatedTestimonialsDemo />
     </div>
   )
 }
