@@ -54,20 +54,6 @@ const Hero = () => {
           <button>Shop</button>
         </div>
 
-        <div className="ekiden-products">
-          {[img1, img2, img3].map((product, index) => (
-            <div key={index} className="product-item">
-              <img src={product} alt={`Product ${index + 1}`} />
-              <div className="product-info">
-                <p className="product-name">Product Name {index + 1}</p>
-                <p>Description for product {index + 1}.</p>
-                <button>Shop</button>
-              </div>
-            </div>
-          ))}
-        </div>
-
-
       </div>
     </div>
   );

@@ -83,9 +83,9 @@
   height: 28px;
 }
 
-h3 {
+h3.acc-h3 {
   font-size: 1.1rem;
-  color: #f5f5f5;
+  color: #000000;
   font-weight: 600;
 }
 

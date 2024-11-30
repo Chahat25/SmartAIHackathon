@@ -3,6 +3,7 @@ import SearchIcon from "../assets/search.png";
 import AccountIcon from "../assets/acc.png";
 import CartIcon from "../assets/cart.png";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -18,19 +19,22 @@ function Navbar() {
       </div>
 
       {/* Logo */}
+      
+      <Link to="/Home">
       <div className="navbar-section logo">
         <h1 className="brand-name">TRYLY</h1>
       </div>
+</Link>
 
       {/* Account & Cart */}
       <div className="navbar-section account-cart">
         <div className="account">
           <img src={AccountIcon} alt="Account" className="icon" />
-          <h3>Account</h3>
+          <h3 className="acc-h3">Account</h3>
         </div>
         <div className="cart">
           <img src={CartIcon} alt="Cart" className="icon" />
-          <h3>Cart</h3>
+          <h3 className="acc-h3">Cart</h3>
         </div>
       </div>
     </header>
