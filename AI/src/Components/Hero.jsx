@@ -7,6 +7,24 @@ import img3 from '../assets/3.jpg';
 const Hero = () => {
   return (
     <div className="main-container">
+
+
+      <div className="tara-section">
+        <img src={img2} alt="Featured Image" />
+        <div className="tara-content">
+          <p className="section-title">Training Essentials</p>
+          <p className="highlight-text">POWER YOUR PROGRESS</p>
+          <p className="section-description">
+            Tara Nicolas is learning to be good to herself--and that starts with the right gear.
+          </p>
+          <div className="content-buttons">
+            <button>Shop Training Essentials</button>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+
+
       <div className="alex-section">
         <div className="alex-image">
           <img src={img1} alt="Nike Logo" />
@@ -21,21 +39,6 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="tara-section">
-        <p className="featured-label">Featured</p>
-        <img src={img2} alt="Featured Image" />
-        <div className="tara-content">
-          <p className="section-title">Training Essentials</p>
-          <p className="highlight-text">POWER YOUR PROGRESS</p>
-          <p className="section-description">
-            Tara Nicolas is learning to be good to herself--and that starts with the right gear.
-          </p>
-          <div className="content-buttons">
-            <button>Shop Training Essentials</button>
-            <button>Read More</button>
-          </div>
-        </div>
-      </div>
 
       <div className="ekiden-section">
         <div className="ekiden-header">
@@ -64,10 +67,7 @@ const Hero = () => {
           ))}
         </div>
 
-        <div className="ekiden-featured">
-          <p className="featured-label">Featured</p>
-          <img src={img3} alt="Featured Ekiden" />
-        </div>
+
       </div>
     </div>
   );

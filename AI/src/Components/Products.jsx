@@ -51,7 +51,7 @@ const Products = () => {
                 </div>
                 <div className="icon">
                   <a href="#" className="iconBox" style={{ background: company.iconBg }}>
-                    <img src={Arrow}></img>
+                    <img src={Arrow} className='arrimg'></img>
                   </a>
                 </div>
               </div>
