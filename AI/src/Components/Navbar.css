@@ -110,8 +110,18 @@ h3.acc-h3 {
   font-size: 1.1rem;
   color: #000000; /* Black text */
   font-weight: 600;
+  text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit; /* Ensures the color doesn't change to blue */
+}
+
+a:hover {
+  text-decoration: none; /* Explicitly remove underline on hover */
+  color: inherit; /* Prevents default hover color */
+}
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   .navbar {
