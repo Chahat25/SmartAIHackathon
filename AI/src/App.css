@@ -19,4 +19,5 @@ body{
   scroll-behavior: smooth;
   position: relative;
   overflow-x: hidden;
+  background-color: rgb(254, 255, 240);
 }

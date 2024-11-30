@@ -1,14 +1,15 @@
 import React from 'react'
 import Header from "../Components/Header"
 import Navbar from "../Components/Navbar"
-import ClothingCards from '../Components/ClothingCards'
+import Products from '../Components/Products'
+
 
 function Women() {
   return (
     <div>
             <Navbar />
             <Header />
-            <ClothingCards />
+            <Products/>
     </div>
   )
 }
