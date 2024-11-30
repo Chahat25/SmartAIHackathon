@@ -4,6 +4,8 @@ import Home from './Pages/Home';
 import Men from './Pages/Men';
 import Women from './Pages/Women';
 import ProductPage from './Pages/ProductPage';
+import LoginPage from './Pages/LoginPage';
+import Cart from './Pages/Cart';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route path="/men" element={<Men />} />
           <Route path="/women" element={<Women />} />
           <Route path="/" element={<Home />} />
+          <Route path="/Login" element={<LoginPage />} />
+          <Route path="/Cart" element={<Cart />} />
         </Routes>
       </div>
     </Router>

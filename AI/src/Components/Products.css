@@ -20,7 +20,7 @@
 }
 
 .trusted-companies .card {
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 16px;
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -41,7 +41,7 @@
 .trusted-companies .card-inner {
   position: relative;
   height: 240px;
-  background-color: var(--clr, #fff);
+  background-color: rgb(254, 255, 240);
 }
 
 .trusted-companies .imgBox {
@@ -61,7 +61,7 @@
   right: -15px;
   width: 80px;
   height: 80px;
-  background: var(--clr, #282828);
+  background: rgb(254, 255, 240);
   border-top-left-radius: 50%;
   display: flex;
   justify-content: center;

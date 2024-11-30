@@ -28,14 +28,14 @@ function Navbar() {
 
       {/* Account & Cart */}
       <div className="navbar-section account-cart">
-        <div className="account">
+       <Link to='/Login'> <div className="account">
           <img src={AccountIcon} alt="Account" className="icon" />
           <h3 className="acc-h3">Account</h3>
-        </div>
-        <div className="cart">
+        </div></Link>
+        <Link to='/Cart'> <div className="cart">
           <img src={CartIcon} alt="Cart" className="icon" />
           <h3 className="acc-h3">Cart</h3>
-        </div>
+        </div></Link>
       </div>
     </header>
   );
