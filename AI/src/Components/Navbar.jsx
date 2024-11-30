@@ -10,7 +10,7 @@ function Navbar() {
       {/* Search Bar */}
       <div className="navbar-section searchbar">
         <img src={SearchIcon} alt="Search" className="icon" />
-        <h3>Search....</h3>
+        <h3 className="Search">Search....</h3>
       </div>
 
       {/* Logo */}

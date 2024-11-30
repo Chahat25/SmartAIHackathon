@@ -1,6 +1,7 @@
 // React Component: TrustedCompanies.js
 
 import './Products.css'; // Import the CSS file
+import Arrow from '../assets/Arrow.png'
 
 const Products = () => {
   const companies = [
@@ -50,7 +51,7 @@ const Products = () => {
                 </div>
                 <div className="icon">
                   <a href="#" className="iconBox" style={{ background: company.iconBg }}>
-                    <span className="material-symbols-outlined">arrow_outward</span>
+                    <img src={Arrow}></img>
                   </a>
                 </div>
               </div>

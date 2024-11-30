@@ -1,16 +1,15 @@
 import Hero from "../Components/Hero"
 import Navbar from "../Components/Navbar"
 import Products from "../Components/Products"
-import VerticalImageLoop from "../Components/VerticalImageLoop"
-
+// import Products from "../Components/Products"
 
 function Home() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <VerticalImageLoop />
-      <Products />
+<Hero />
+<Products />
+      
     </div>
   )
 }
