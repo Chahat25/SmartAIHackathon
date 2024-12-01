@@ -9,11 +9,11 @@ const Products = () => {
 
   const companies = [
     {
-      name: 'Trust & Co.',
+      name: 'Long-sleeved Jersey Top',
       description: 'Fill out the form and the algorithm will offer the right team of experts.',
-      imgSrc: 'https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      price: 150,
-      discount: 20,
+      imgSrc: 'https://www.google.co.in/url?sa=i&url=https%3A%2F%2Fwww.myntra.com%2Ftops%2Fh26m%2Fhm-long-sleeved-jersey-top%2F21470610%2Fbuy&psig=AOvVaw0pr18FgI5dA_1x8_QAfpQi&ust=1733140245283000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOi2393AhooDFQAAAAAdAAAAABAE',
+      price: 699,
+      discount: 10,
       tags: [
         { name: 'branding', color: '#d3b19a' },
         { name: 'packaging', color: '#70b3b1' },
