@@ -9,9 +9,9 @@ const Products = () => {
 
   const companies = [
     {
-      name: 'Trust & Co.',
-      description: 'Fill out the form and the algorithm will offer the right team of experts.',
-      imgSrc: 'https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Dresses',
+      description: '',
+      imgSrc: 'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fed%2F65%2Fed659bd3924f438b192e8e37a29bc9322cac9294.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
       price: 150,
       discount: 20,
       tags: [
@@ -21,9 +21,9 @@ const Products = () => {
       iconBg: '#d3b19a',
     },
     {
-      name: 'Tonic',
-      description: 'Fill out the form and the algorithm will offer the right team of experts.',
-      imgSrc: 'https://images.unsplash.com/photo-1613235788366-270e7ac489f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'T-Shirts',
+      description: '',
+      imgSrc: 'https://images.bewakoof.com/t1080/women-s-red-being-cute-is-my-superpower-graphic-printed-oversized-t-shirt-577399-1717061129-1.jpg',
       price: 200,
       discount: 15,
       tags: [
@@ -33,9 +33,9 @@ const Products = () => {
       iconBg: '#70b3b1',
     },
     {
-      name: 'Shower Gel',
-      description: 'Fill out the form and the algorithm will offer the right team of experts.',
-      imgSrc: 'https://images.unsplash.com/photo-1673847401561-fcd75a7888c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Shirts',
+      description: '',
+      imgSrc: 'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb4%2Fd3%2Fb4d3825b19a3953f136fb513e97ca92ae130cb55.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
       price: 120,
       discount: 10,
       tags: [
@@ -46,9 +46,9 @@ const Products = () => {
       iconBg: '#d05fa2',
     },
     {
-      name: 'Trust & Co.',
-      description: 'Fill out the form and the algorithm will offer the right team of experts.',
-      imgSrc: 'https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Skirts',
+      description: '',
+      imgSrc: 'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb8%2F3f%2Fb83f1d73f78a329d73658204e6bde70c695c3923.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
       price: 150,
       discount: 20,
       tags: [
@@ -57,6 +57,19 @@ const Products = () => {
       ],
       iconBg: '#d3b19a',
     },
+     {
+      name: 'Overcoats',
+      description: '',
+      imgSrc: 'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb1%2F7b%2Fb17ba1fd2942e4712b5f44c341087fb40f960a03.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
+      price: 150,
+      discount: 20,
+      tags: [
+        { name: 'branding', color: '#d3b19a' },
+        { name: 'packaging', color: '#70b3b1' },
+      ],
+      iconBg: '#d3b19a',
+    },
+   
   ];
 
   const toggleLike = (index) => {
