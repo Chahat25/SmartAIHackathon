@@ -21,45 +21,39 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "Furkan Giray",
-      role: "Web Developer",
+      name: "Nishu Soni",
+      role: "FrontEnd Developer",
+      image:
+        "https://i.postimg.cc/MT4mZbVF/image.png",
+      feedback:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
+    },
+    {
+      name: "Yashika",
+      role: "AI Engineer",
+      image:
+        "https://i.postimg.cc/kMLPz06x/image.png",
+      feedback:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
+    },
+    {
+      name: "Chahat Gupta",
+      role: "AI Engineer",
+      image:
+        "https://i.postimg.cc/26qntbMF/image.png",
+        
+      feedback:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
+    },
+    {
+      name: "Sneha",
+      role: "Customer",
       image:
         "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
       feedback:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
     },
-    {
-      name: "Furkan Giray",
-      role: "Web Developer",
-      image:
-        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
-      feedback:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
-    },
-    {
-      name: "Furkan Giray",
-      role: "Web Developer",
-      image:
-        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
-      feedback:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
-    },
-    {
-      name: "Furkan Giray",
-      role: "Web Developer",
-      image:
-        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
-      feedback:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
-    },
-    {
-      name: "Furkan Giray",
-      role: "Web Developer",
-      image:
-        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
-      feedback:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
-    }
+    
   ];
 
   return (
