@@ -1,11 +1,7 @@
-import React from 'react'
-import Navbar from '../Components/Navbar'
-import Header from '../Components/Header'
-<<<<<<< HEAD
-import Products from '../Components/Products_man'
-=======
-import MenProd from '../Components/MenProd'
->>>>>>> 1d52e71641fd09e3502be901c224f3038e08645c
+import React from 'react';
+import Navbar from '../Components/Navbar';
+import Header from '../Components/Header';
+import MenProd from '../Components/Products_man';
 
 function Men() {
   return (
@@ -14,7 +10,7 @@ function Men() {
       <Header />
       <MenProd />
     </div>
-  )
+  );
 }
 
-export default Men
+export default Men;
