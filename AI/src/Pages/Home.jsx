@@ -3,7 +3,7 @@ import Header from "../Components/Header"
 import Navbar from "../Components/Navbar"
 import Hero from "../Components/Hero"
 import Products from "../Components/Products"
-import { AnimatedTestimonialsDemo } from "../Components/Testimonials"
+import Testimonials from "../Components/Testimonials"
 
 function Home() {
   return (
@@ -11,8 +11,8 @@ function Home() {
       <Navbar />
       <Header />
 <Hero />
-<Products category="Men" />
-<AnimatedTestimonialsDemo />
+<Products />
+<Testimonials />
     </div>
   )
 }

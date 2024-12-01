@@ -1,70 +1,94 @@
-import { motion } from 'framer-motion';
-import './AnimatedTestimonialsDemo.css';
+import React from "react";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import "./Testimonials.css";
 
-export function AnimatedTestimonialsDemo() {
+const Testimonials = () => {
+  const options = {
+    items: 1,
+    margin: 20,
+    lazyLoad: true,
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    responsive: {
+      0: { items: 1 },
+      600: { items: 1 },
+      1000: { items: 1 },
+    },
+  };
+
   const testimonials = [
     {
-      quote: "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
-      name: "Sarah Chen",
-      designation: "Product Manager at TechFlow",
-      src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      name: "Furkan Giray",
+      role: "Web Developer",
+      image:
+        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
+      feedback:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
     },
     {
-      quote: "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
-      name: "Michael Rodriguez",
-      designation: "CTO at InnovateSphere",
-      src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      name: "Furkan Giray",
+      role: "Web Developer",
+      image:
+        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
+      feedback:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
     },
     {
-      quote: "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
-      name: "Emily Watson",
-      designation: "Operations Director at CloudScale",
-      src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      name: "Furkan Giray",
+      role: "Web Developer",
+      image:
+        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
+      feedback:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
     },
     {
-      quote: "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
-      name: "James Kim",
-      designation: "Engineering Lead at DataPro",
-      src: "https://images.unsplash.com/photo-1636041293178-808a6762ab39?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      name: "Furkan Giray",
+      role: "Web Developer",
+      image:
+        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
+      feedback:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
     },
     {
-      quote: "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
-      name: "Lisa Thompson",
-      designation: "VP of Technology at FutureNet",
-      src: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
+      name: "Furkan Giray",
+      role: "Web Developer",
+      image:
+        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
+      feedback:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
+    }
   ];
 
   return (
-    <div className="animated-testimonials">
-      {testimonials.map((testimonial, index) => (
-        <motion.div
-          key={index}
-          className="testimonial"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -20 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-        >
-          <div className="testimonial-quote">
-            <p>{testimonial.quote}</p>
-          </div>
-          <div className="testimonial-author">
-            <motion.img
-              src={testimonial.src}
-              alt={testimonial.name}
-              className="testimonial-image"
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 0.4, ease: "easeOut" }}
-            />
-            <div className="author-details">
-              <p className="author-name">{testimonial.name}</p>
-              <p className="author-designation">{testimonial.designation}</p>
+    <section className="testimonials">
+      <div className="container-test">
+        <div className="title-test">
+          <h5>Testimonials</h5>
+          <h2>What Our Clients Say</h2>
+        </div>
+        <OwlCarousel className="owl-theme" {...options}>
+          {testimonials.map((testimonial, index) => (
+            <div className="item-test" key={index}>
+              <div className="profile-test">
+                <img src={testimonial.image} alt={testimonial.name} />
+                <div className="information">
+                  <p className="name">{testimonial.name}</p>
+                  <span className="role">{testimonial.role}</span>
+                </div>
+              </div>
+              <p className="feedback">{testimonial.feedback}</p>
+              <div className="quote-icon">
+                <i className="fa fa-quote-right" aria-hidden="true"></i>
+              </div>
             </div>
-          </div>
-        </motion.div>
-      ))}
-    </div>
+          ))}
+        </OwlCarousel>
+      </div>
+    </section>
   );
-}
+};
+
+export default Testimonials;
