@@ -4,28 +4,24 @@ import "./Slider.css";
 
 const SliderComponent = () => {
   const images = [
-    { src: "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", name: "Nature" },
-    { src: "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", name: "Water" },
-    { src: "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", name: "Forest" },
-    { src: "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", name: "Mountains" },
-    { src: "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", name: "City" },
-    { src: "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", name: "Desert" },
-    { src: "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", name: "Beach" },
-    { src: "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", name: "Sky" },
-    { src: "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", name: "Sunset" },
-    { src: "https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", name: "Flowers" },
+    { src: "https://i.postimg.cc/DzYXWZpV/Untitled-design-9.png", name: "Shop by Skin Tone" },
+    { src: "https://i.postimg.cc/jqwwLRrN/you-1.png", name: "Share with friends" },
+    { src: "https://i.postimg.cc/FR1vCFxx/you-2.png", name: "Get VR body measurement" },
+    { src: "https://i.postimg.cc/8Pp2ZzPf/Untitled-design-10.png", name: "Shop for Occasion" },
+    { src: "https://i.postimg.cc/jSb4HZ6s/you-3.png", name: "Match Your Outfit" },
+
   ];
 
   const settings = {
-    dots: false, // No navigation dots
-    infinite: true, // Infinite loop
-    speed: 3000, // Slower transition speed in ms
-    slidesToShow: 5, // Number of visible slides
-    slidesToScroll: 1, // Scroll one slide at a time
-    autoplay: true, // Enable autoplay
-    autoplaySpeed: 4000, // Slower autoplay interval
-    cssEase: "ease", // Smooth transition
-    arrows: true, // Enable navigation arrows
+    dots: false,
+    infinite: true,
+    speed: 800,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    cssEase: "ease",
+    arrows: true,
   };
 
   return (
