@@ -24,15 +24,15 @@ const Testimonials = () => {
       name: "Nishu Soni",
       role: "FrontEnd Developer",
       image:
-        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
+        "https://i.postimg.cc/MT4mZbVF/image.png",
       feedback:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
     },
     {
-      name: "Yashka",
+      name: "Yashika",
       role: "AI Engineer",
       image:
-        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
+        "https://i.postimg.cc/kMLPz06x/image.png",
       feedback:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
     },
@@ -40,7 +40,8 @@ const Testimonials = () => {
       name: "Chahat Gupta",
       role: "AI Engineer",
       image:
-        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
+        "https://i.postimg.cc/26qntbMF/image.png",
+        
       feedback:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
     },
