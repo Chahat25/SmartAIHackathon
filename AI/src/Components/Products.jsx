@@ -12,34 +12,32 @@ const Products = () => {
       name: 'Dresses',
       description: '',
       imgSrc: 'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fed%2F65%2Fed659bd3924f438b192e8e37a29bc9322cac9294.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
-      price: 150,
-      discount: 20,
+      price: 100,
+      discount: 10,
       tags: [
         { name: 'branding', color: '#d3b19a' },
         { name: 'packaging', color: '#70b3b1' },
       ],
       iconBg: '#d3b19a',
     },
-    
     {
-      name: 'Shirts',
+      name: 'T-Shirts',
       description: '',
-      imgSrc: 'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb4%2Fd3%2Fb4d3825b19a3953f136fb513e97ca92ae130cb55.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
-      price: 120,
+      imgSrc: 'https://images.bewakoof.com/t1080/women-s-red-being-cute-is-my-superpower-graphic-printed-oversized-t-shirt-577399-1717061129-1.jpg',
+      price: 100,
       discount: 10,
       tags: [
         { name: 'branding', color: '#d3b19a' },
-        { name: 'packaging', color: '#70b3b1' },
         { name: 'marketing', color: '#d05fa2' },
       ],
-      iconBg: '#d05fa2',
+      iconBg: '#70b3b1',
     },
     {
       name: 'Skirts',
       description: '',
       imgSrc: 'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb8%2F3f%2Fb83f1d73f78a329d73658204e6bde70c695c3923.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
-      price: 150,
-      discount: 20,
+      price: 100,
+      discount: 10,
       tags: [
         { name: 'branding', color: '#d3b19a' },
         { name: 'packaging', color: '#70b3b1' },
@@ -50,8 +48,8 @@ const Products = () => {
       name: 'Overcoats',
       description: '',
       imgSrc: 'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb1%2F7b%2Fb17ba1fd2942e4712b5f44c341087fb40f960a03.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
-      price: 150,
-      discount: 20,
+      price: 100,
+      discount: 10,
       tags: [
         { name: 'branding', color: '#d3b19a' },
         { name: 'packaging', color: '#70b3b1' },
@@ -60,6 +58,8 @@ const Products = () => {
     },
    
   ];
+
+
 
   const toggleLike = (index) => {
     setLiked((prev) => ({ ...prev, [index]: !prev[index] }));
