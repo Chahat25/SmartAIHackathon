@@ -17,10 +17,10 @@ const Hero = () => {
 
       <div className="main-container">
         <div className="tara-content">
-          <p className="section-title">Training Essentials</p>
-          <p className="highlight-text">POWER YOUR PROGRESS</p>
+          <p className="section-title">Trial Essentials</p>
+          <p className="highlight-text">YOUR FASHION, YOUR FIT, YOUR WAY</p>
           <p className="section-description">
-            Tara Nicolas is learning to be good to herself--and that starts with the right gear.
+          It’s not just about trying outfits—it’s about truly finding what feels right for you.
           </p>
           <div className="content-buttons">
             <button>Shop Training Essentials</button>

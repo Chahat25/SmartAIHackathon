@@ -2,7 +2,7 @@ import React from 'react'
 import Products from '../Components/Products'
 import Header from "../Components/Header"
 import Navbar from "../Components/Navbar"
-import MenProd from '../Components/MenProd'
+import MenProd from '../Components/Products_man'
 
 function ProductPage() {
   return (
@@ -14,5 +14,4 @@ function ProductPage() {
     </div>
   )
 }
-
 export default ProductPage

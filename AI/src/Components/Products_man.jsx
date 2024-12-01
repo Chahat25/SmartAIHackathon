@@ -1,8 +1,10 @@
+// React Component: Products.js
+
 import './Products.css'; // Import the CSS file
 import Arrow from '../assets/Arrow.png';
 import { useState } from 'react';
 
-const Products = () => {
+const MenProd = () => {
   const [liked, setLiked] = useState({});
 
   const companies = [
@@ -195,4 +197,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default MenProd;
