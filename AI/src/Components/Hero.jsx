@@ -23,7 +23,7 @@ const Hero = () => {
           It’s not just about trying outfits—it’s about truly finding what feels right for you.
           </p>
           <div className="content-buttons">
-            <button>Shop Training Essentials</button>
+            <button>Shop Trial Essentials</button>
             <button>Read More</button>
           </div>
         </div>
@@ -33,13 +33,13 @@ const Hero = () => {
             <img src={img1} alt="Nike Logo" />
           </div>
           <div className="alex-content">
-            <p className="content-title">ALEX EALA ON THE RISE</p>
-            <p className="content-description">
-              Meet the Filipino tennis player who's smashing every challenge.
+            <p className="content-title">Our Partnership<br></br>
+            LOOK GOOD, DO GOOD
             </p>
+            
             <div className="content-buttons">
               <button>Read Now</button>
-              <button>Shop NikeCourt</button>
+              <button>Shop Tryly</button>
             </div>
           </div>
         </div>
@@ -48,13 +48,9 @@ const Hero = () => {
 
         <div className="ekiden-section">
           <div className="ekiden-header">
-            <p className="section-title">EKIDEN PACK</p>
             <h1 className="highlight-title">RISE TOGETHER</h1>
             <p className="section-description">
-              “EKIDEN PACK” is a running collection inspired by the mountainous terrain that Ekiden Runners
-              take on for Japan’s most popular race during the New Year. The latest collection incorporates
-              flaming colors that represent the sunrise as the race begins, and the passionate energy
-              surrounding the event.
+            "Our website uses Virtual Intelligence to make user interactions smarter and more personalized. With advanced technology and easy-to-use design, we create a smooth and enjoyable experience for everyone."
             </p>
             <button>Shop</button>
           </div>

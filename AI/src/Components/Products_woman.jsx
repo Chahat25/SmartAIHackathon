@@ -11,7 +11,7 @@ const Products = () => {
     {
       name: 'H&M',
       description: 'Long-sleeved Jersey Top',
-      imgSrc: 'https://www.google.co.in/url?sa=i&url=https%3A%2F%2Fwww.myntra.com%2Ftops%2Fh26m%2Fhm-long-sleeved-jersey-top%2F21470610%2Fbuy&psig=AOvVaw0pr18FgI5dA_1x8_QAfpQi&ust=1733140245283000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOi2393AhooDFQAAAAAdAAAAABAE',
+      imgSrc: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSMzgDPSZQ5gWmyuVYDigH3SLdKN3fm4PCkFfN_Dv-f6P8GWtG8HoDddC5SmZaVnrHn-cirj8S0_Ixz7wpwE4pZjEsWzy2MRsePufHDEsx2&usqp=CAE',
       price: 699,
       discount: 10,
       tags: [
@@ -21,7 +21,7 @@ const Products = () => {
       iconBg: '#d3b19a',
     },
     {
-      name: 'H&M',
+      name: 'ZARA',
       description: 'Crocodile-patterned mini dress',
       imgSrc: 'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F32%2Ffe%2F32fe2573f027ea976166e9f4af98c719581af145.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
       price: 1499,
@@ -36,8 +36,8 @@ const Products = () => {
       name: 'Only',
       description: 'Cream Printed Oversized T-shirt',
       imgSrc: 'https://images.bestsellerclothing.in/data/only/02-mar-2024/144290401_g0.jpg?width=488&height=650&mode=fill&fill=blur&format=auto',
-      price: 584,
-      discount: 1299,
+      price: 5849,
+      discount: 10,
       tags: [
         { name: 'branding', color: '#d3b19a' },
         { name: 'packaging', color: '#70b3b1' },
@@ -60,7 +60,7 @@ const Products = () => {
     {
       name: 'Roadster',
       description: 'Roadster Women Black White Striped Round Neck',
-      imgSrc: 'https://www.google.co.in/url?q=http://www.myntra.com/Tshirts/Roadster/Roadster-Women-Black--White-Striped-Round-Neck-Pure-Cotton-T-shirt/7178240/buy&opi=95576897&sa=U&ved=0ahUKEwi8zvidx4aKAxWsnGMGHSIXF8sQrzwI1AI&usg=AOvVaw1HBORj1a-c2TGi6ME-SDt_',
+      imgSrc: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSVkgG5atO8xaqo_xscaoQF3reEtEMdG-X_lfGY4vacvl_ENv70IinFxqgVJ1d-iBSGZt_C6_QrfkimCuLJB3gXOLC8xSxDChsYh_Mhqcw&usqp=CAE',
       price: 286,
       discount: 46,
       tags: [
