@@ -9,8 +9,8 @@ const Products = () => {
 
   const companies = [
     {
-      name: 'Long-sleeved Jersey Top',
-      description: 'Fill out the form and the algorithm will offer the right team of experts.',
+      name: 'H&M',
+      description: 'Long-sleeved Jersey Top',
       imgSrc: 'https://www.google.co.in/url?sa=i&url=https%3A%2F%2Fwww.myntra.com%2Ftops%2Fh26m%2Fhm-long-sleeved-jersey-top%2F21470610%2Fbuy&psig=AOvVaw0pr18FgI5dA_1x8_QAfpQi&ust=1733140245283000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOi2393AhooDFQAAAAAdAAAAABAE',
       price: 699,
       discount: 10,
@@ -21,11 +21,11 @@ const Products = () => {
       iconBg: '#d3b19a',
     },
     {
-      name: 'Tonic',
-      description: 'Fill out the form and the algorithm will offer the right team of experts.',
-      imgSrc: 'https://images.unsplash.com/photo-1613235788366-270e7ac489f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      price: 200,
-      discount: 15,
+      name: 'H&M',
+      description: 'Crocodile-patterned mini dress',
+      imgSrc: 'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F32%2Ffe%2F32fe2573f027ea976166e9f4af98c719581af145.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
+      price: 1499,
+      discount: 10,
       tags: [
         { name: 'branding', color: '#d3b19a' },
         { name: 'marketing', color: '#d05fa2' },
@@ -33,11 +33,11 @@ const Products = () => {
       iconBg: '#70b3b1',
     },
     {
-      name: 'Shower Gel',
-      description: 'Fill out the form and the algorithm will offer the right team of experts.',
-      imgSrc: 'https://images.unsplash.com/photo-1673847401561-fcd75a7888c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      price: 120,
-      discount: 10,
+      name: 'Only',
+      description: 'Cream Printed Oversized T-shirt',
+      imgSrc: 'https://images.bestsellerclothing.in/data/only/02-mar-2024/144290401_g0.jpg?width=488&height=650&mode=fill&fill=blur&format=auto',
+      price: 584,
+      discount: 1299,
       tags: [
         { name: 'branding', color: '#d3b19a' },
         { name: 'packaging', color: '#70b3b1' },
@@ -46,11 +46,11 @@ const Products = () => {
       iconBg: '#d05fa2',
     },
     {
-      name: 'Trust & Co.',
-      description: 'Fill out the form and the algorithm will offer the right team of experts.',
-      imgSrc: 'https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      price: 150,
-      discount: 20,
+      name: 'Only',
+      description: 'Brown Front Button Cardigan',
+      imgSrc: 'https://images.bestsellerclothing.in/data/only/29-sep-2023/283532701_g0.jpg?width=488&height=650&mode=fill&fill=blur&format=auto',
+      price: 1259,
+      discount: 59,
       tags: [
         { name: 'branding', color: '#d3b19a' },
         { name: 'packaging', color: '#70b3b1' },
@@ -58,11 +58,11 @@ const Products = () => {
       iconBg: '#d3b19a',
     },
     {
-      name: 'Tonic',
-      description: 'Fill out the form and the algorithm will offer the right team of experts.',
-      imgSrc: 'https://images.unsplash.com/photo-1613235788366-270e7ac489f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      price: 200,
-      discount: 15,
+      name: 'Roadster',
+      description: 'Roadster Women Black White Striped Round Neck',
+      imgSrc: 'https://www.google.co.in/url?q=http://www.myntra.com/Tshirts/Roadster/Roadster-Women-Black--White-Striped-Round-Neck-Pure-Cotton-T-shirt/7178240/buy&opi=95576897&sa=U&ved=0ahUKEwi8zvidx4aKAxWsnGMGHSIXF8sQrzwI1AI&usg=AOvVaw1HBORj1a-c2TGi6ME-SDt_',
+      price: 286,
+      discount: 46,
       tags: [
         { name: 'branding', color: '#d3b19a' },
         { name: 'marketing', color: '#d05fa2' },
@@ -70,11 +70,11 @@ const Products = () => {
       iconBg: '#70b3b1',
     },
     {
-      name: 'Shower Gel',
-      description: 'Fill out the form and the algorithm will offer the right team of experts.',
-      imgSrc: 'https://images.unsplash.com/photo-1673847401561-fcd75a7888c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      price: 120,
-      discount: 10,
+      name: 'Max',
+      description: 'Women Striped Polo T-shirt',
+      imgSrc: 'https://media.landmarkshops.in/cdn-cgi/image/h=831,w=615,q=85,fit=cover/max-new/1000013971370-Brown-BROWN-1000013971370_01-2100.jpg',
+      price: 599,
+      discount: 20,
       tags: [
         { name: 'branding', color: '#d3b19a' },
         { name: 'packaging', color: '#70b3b1' },
