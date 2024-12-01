@@ -56,7 +56,54 @@ const Products = () => {
       ],
       iconBg: '#d3b19a',
     },
-   
+    {
+      name: 'Joggers',
+      description: '',
+      imgSrc: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRRALtM_pkU68BMj0IcL6Ol6Mpg07OK4Q9DoX22X7yX8CQ0FWjXcFRCH8NWyyYW55yggkD6PSFLJNdgsFNgx7PtqRY5aIOR8SgIFt0qIW5CHWkmM6qc_Tt0etg&usqp=CAc',
+      price: 100,
+      discount: 10,
+      tags: [
+        { name: 'branding', color: '#d3b19a' },
+        { name: 'packaging', color: '#70b3b1' },
+      ],
+      iconBg: '#d3b19a',
+    },
+    {
+      name: 'Crop Top',
+      description: '',
+      imgSrc: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT1HAZOuS8jWEaCgij-yf0kijAjz8Vpgt2pCRxv-rHRzJA_GY3Z5cb_wBRMKOJVgJK7nvuTwPfVvsXp6xeZC2t5VQdU0u-XLBh3o2VsYKp2&usqp=CAE',
+      price: 100,
+      discount: 10,
+      tags: [
+        { name: 'branding', color: '#d3b19a' },
+        { name: 'packaging', color: '#70b3b1' },
+      ],
+      iconBg: '#d3b19a',
+    },
+    {
+      name: 'Formal Shirt',
+      description: '',
+      imgSrc: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR9jJ9WBzo6Bks-6H30J6rUYtp6bUhucHOwPz6Au2-XHFwETDAsDwFt8c7FLCOp11k8H6woP052uv5GUaf-n11mlcDvt06POGofNIhAyrk&usqp=CAE',
+      price: 100,
+      discount: 10,
+      tags: [
+        { name: 'branding', color: '#d3b19a' },
+        { name: 'packaging', color: '#70b3b1' },
+      ],
+      iconBg: '#d3b19a',
+    },
+    {
+      name: 'Suits',
+      description: '',
+      imgSrc: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRoyxq6LRwGCgxRCQGgthrsVwDTHjaXPF11tnj2874ovwsi14F5AsMVeuX-FURr1_C5dBjtycGZ4vvZrb64ADGc-4Rg7GU7zXipkq7zrCY&usqp=CAE',
+      price: 100,
+      discount: 10,
+      tags: [
+        { name: 'branding', color: '#2FCC32FF' },
+        { name: 'packaging', color: '#A146B1FF' },
+      ],
+      iconBg: '#d3b19a',
+    },
   ];
 
 

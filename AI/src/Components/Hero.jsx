@@ -52,7 +52,7 @@ const Hero = () => {
             <p className="section-description">
             "Our website uses Virtual Intelligence to make user interactions smarter and more personalized. With advanced technology and easy-to-use design, we create a smooth and enjoyable experience for everyone."
             </p>
-            <button>Shop</button>
+            <button>Shop Now At Discounted Price</button>
           </div>
         </div>
       </div>
