@@ -1,15 +1,48 @@
-import React from 'react';
-import './Form.css';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; // For navigation
+import "./Form.css";
 
 const Form = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    // Hardcoded credentials
+    const validEmail = "tryly@gmail.com";
+    const validPassword = "googlegmail";
+
+    if (email === validEmail && password === validPassword) {
+      // Redirect to Home page on successful login
+      navigate("/home");
+    } else {
+      alert("Invalid username or password");
+    }
+  };
+
   return (
-    <form className="custom-form">
+    <form className="custom-form" onSubmit={handleLogin}>
       <div className="custom-form-title">
         Welcome,<br />
         <span>Sign up to continue</span>
       </div>
-      <input className="custom-form-input" name="email" placeholder="Email" type="email" />
-      <input className="custom-form-input" name="password" placeholder="Password" type="password" />
+      <input
+        className="custom-form-input"
+        name="email"
+        placeholder="Email"
+        type="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+      <input
+        className="custom-form-input"
+        name="password"
+        placeholder="Password"
+        type="password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
       <div className="custom-form-login-with">
         <div className="custom-form-button-log">
           <b>t</b>

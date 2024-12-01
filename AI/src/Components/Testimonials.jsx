@@ -26,7 +26,7 @@ const Testimonials = () => {
       image:
         "https://i.postimg.cc/MT4mZbVF/image.png",
       feedback:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
+        "Being a tech enthusiast, I’m always looking for innovative ways to shop. Tryly is exactly what I’ve been waiting for! The virtual try-on feature is spot on, and it’s really fun to experiment with different outfits. It’s perfect for those who don’t want to spend ages in a fitting room. This app is a must-have for modern shoppers!",
     },
     {
       name: "Yashika",
@@ -34,7 +34,7 @@ const Testimonials = () => {
       image:
         "https://i.postimg.cc/kMLPz06x/image.png",
       feedback:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
+        "Tryly is a game changer! I’ve always wanted to try on clothes without leaving the comfort of my home, and now I can! The app is super easy to use, and I can see how clothes will fit me before I buy. It’s definitely saved me time and frustration. I’m never going back to traditional shopping!",
     },
     {
       name: "Chahat Gupta",
@@ -43,15 +43,15 @@ const Testimonials = () => {
         "https://i.postimg.cc/26qntbMF/image.png",
         
       feedback:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
+        "I absolutely love Tryly! As someone who’s always on the go, I never have time to wait in long lines for trial rooms at stores. This app makes shopping so convenient – I can try on clothes virtually and make quick decisions. Highly recommend it to anyone with a busy schedule!",
     },
     {
-      name: "Sneha",
+      name: "Anaya",
       role: "Customer",
       image:
-        "https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80",
+        "https://i.postimg.cc/76d5hsRz/image.png",
       feedback:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit labore suscipit distinctio, officiis deserunt rem blanditiis ducimus.",
+        "Tryly has been a lifesaver for me! As a parent, it’s often a struggle to find time for shopping, especially with kids in tow. Now, I can quickly try on clothes virtually without dragging everyone to the store. It’s so convenient, and I can shop whenever I have a free moment. This app is perfect for anyone who values their time!",
     },
     
   ];
@@ -61,7 +61,7 @@ const Testimonials = () => {
       <div className="container-test">
         <div className="title-test">
           <h5>Testimonials</h5>
-          <h2>What Our Clients Say</h2>
+          <h2>FROM THE CREATORS</h2>
         </div>
         <OwlCarousel className="owl-theme" {...options}>
           {testimonials.map((testimonial, index) => (
