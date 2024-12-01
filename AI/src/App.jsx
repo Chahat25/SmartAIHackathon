@@ -6,6 +6,7 @@ import Women from './Pages/Women';
 import ProductPage from './Pages/ProductPage';
 import LoginPage from './Pages/LoginPage';
 import Cart from './Pages/Cart';
+import Skin from './Pages/Skin';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<LoginPage />} />
           <Route path="/Cart" element={<Cart />} />
+          <Route path="/Skin" element={<Skin />} />
         </Routes>
       </div>
     </Router>

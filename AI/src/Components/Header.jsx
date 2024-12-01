@@ -16,6 +16,9 @@ function Header() {
           <li>
             <Link to="/women">Women</Link>
           </li>
+          <li>
+            <Link to="/Skin">Skin Tone</Link>
+          </li>
         </ul>
       </nav>
     </header>
