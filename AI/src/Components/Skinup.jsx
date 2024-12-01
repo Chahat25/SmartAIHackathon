@@ -89,6 +89,7 @@ function Skinup() {
       <img src={skin} alt="Skin" className="skinup-image" />
 
       <div className="upload">
+        <h1 className='up-h1'>Upload your Photo or Take your photo</h1>
         {/* Photo Upload */}
         <div className="upload-wrapper">
           <button className="upload-button" onClick={startCamera}>

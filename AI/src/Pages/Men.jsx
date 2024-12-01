@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Header from '../Components/Header'
-import Products from '../Components/Products'
+import MenProd from '../Components/MenProd'
 
 function Men() {
   return (
     <div>
       <Navbar />
       <Header />
-      <Products />
+      <MenProd />
     </div>
   )
 }
